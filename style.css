@@ -6,6 +6,10 @@
     from {transform: translateY(500px);}
     to {transform: translateY(0px);}
   }
+  @keyframes nameTextFadeIn{
+    from{opacity: 0;}
+    to{opacity: 1;}
+  }
 /* DESKTOP-----------------------------> */
   @media screen and (min-width: 600px)
   {
@@ -17,6 +21,7 @@
         transform:  translateX(-50%);
         text-align: center;
         font-size: 120px;
+        animation: nameTextFadeIn 2s ease;
     }
 
     .phoneScroll {
@@ -26,6 +31,14 @@
     }
 
   }
+
+    .phoneScroll {
+        justify-content: space-around;
+        gap: 0;
+        min-width: 70rem;
+    }
+
+
 
 body{
     background-color: var(--main-background-color);
