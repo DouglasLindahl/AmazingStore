@@ -21,7 +21,8 @@
         transform:  translateX(-50%);
         text-align: center;
         font-size: 120px;
-        animation: nameTextFadeIn 2s ease;
+        animation: nameTextFadeIn 2s cubic-bezier(0.5, 0, 1, 0.5 );
+
     }
 
     .phoneScroll {
