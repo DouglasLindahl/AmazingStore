@@ -38,6 +38,7 @@ body{
 h1{
     margin: 0;
     padding: 0;
+    text-shadow: 5px 5px 5px rgb(91, 89, 89);
 }
 p{
     font-size: 30px;
@@ -121,4 +122,8 @@ header{
     height: 100%;
     line-height: 20rem;
     background-color: aqua;
+}
+
+article {
+    margin-top: 5rem;
 }
