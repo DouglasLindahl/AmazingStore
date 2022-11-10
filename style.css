@@ -1,0 +1,92 @@
+:root {
+    --main-background-color: #01081A;
+    --main-text-color: #F9F9F9;
+  }
+
+
+  @media screen and (min-width: 600px)
+  {
+    .storeName{
+        position: absolute;
+        top: 400px;
+        width: 100%;
+        text-align: center;
+        font-size: 120px;
+    }
+  }
+body{
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    margin: 0;
+}
+p{
+    font-size: 30px;
+}
+li{
+    font-size: 25px;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    background-color: orange;
+    width: 75%;
+    height: 75%;
+}
+
+.menuOpen{
+    opacity: 1;
+}
+
+
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+}
+
+.hamburger
+{
+    width: 50px;
+    height: 55px;
+}
+.hamburgerImage{
+    width: 100%;
+    height: 100%;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.storeInfo{
+    height: 75vh;
+    border: 3px solid white;
+}
+
+.phoneScroll{
+    height: 100vh; 
+    width: 100%;
+    border: 3px solid white;
+}
