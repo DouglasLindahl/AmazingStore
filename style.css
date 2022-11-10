@@ -118,6 +118,12 @@ header{
     height: 75vh;
     border: 3px solid white;
     background-color: var(--main-background-color);
+    text-align: center;
+}
+
+.storeInfo p {
+    max-width: 90%;
+    
 }
 
 .phoneScroll{
