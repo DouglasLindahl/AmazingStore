@@ -169,6 +169,10 @@ header{
     background-position: center;
 }
 
+.phoneImage.s21 {
+    background-image: url("images/se-galaxy-s22-s901-sm-s901bzggeub-530830399.webp");
+}
+
 
 article {
     margin-bottom: 5rem;
