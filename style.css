@@ -162,6 +162,14 @@ header{
     gap: 2rem;
 }
 
+.phoneText ul{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .phoneText li {
     margin-bottom: 1rem;
     font-size: 1.2rem;
