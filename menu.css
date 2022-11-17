@@ -9,7 +9,7 @@
     overflow: hidden;
     opacity: 0;
     position: absolute;
-    background-color: orange;
+    background-color: rgb(69, 69, 69);
     height: 100vh;
     width: 100vw;
     top: 0;
