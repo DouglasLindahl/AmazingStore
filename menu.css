@@ -1,7 +1,7 @@
 
 
 @keyframes menuOpen {
-    from {left: 150%}
+    from {left: 150%;}
     to {left: 50%; transform: translateX(-50%);}
   }
 
