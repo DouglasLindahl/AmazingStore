@@ -170,7 +170,13 @@ header{
 }
 
 .phoneImage.s21 {
-    background-image: url("images/se-galaxy-s22-s901-sm-s901bzggeub-530830399.webp");
+    background-image: url("images/galaxy s21.png");
+}
+.phoneImage.zfold {
+    background-image: url("images/au-galaxy-z-fold2-f916-sm-f916bznaxsa-frontmysticbronze-274062018.webp");
+}
+.phoneImage.s22ultra {
+    background-image: url("images/se-galaxy-s22-ultra-s908-sm-s908bzwheub-530827469.webp");
 }
 
 
