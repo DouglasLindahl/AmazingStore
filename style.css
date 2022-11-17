@@ -121,7 +121,6 @@ header{
 .storeInfo{
     width: 100%;
     height: 75vh;
-    border: 3px solid white;
     background-color: var(--main-background-color);
     text-align: center;
 }
@@ -134,8 +133,6 @@ header{
 .phoneScroll{
     height: 100vh; 
     width: 100%;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
     display: flex;
     justify-content: flex-start;
     align-content: center;
@@ -150,7 +147,6 @@ header{
     min-width: 20rem;
     height: 100%;
     /* line-height: 20rem; */
-    background-color: aqua; 
      overflow-y: hidden;
 }
 
@@ -181,7 +177,6 @@ header{
 }
 
 .phoneImage {
-    background-color: red;
     width: 100%;
     height: 50%;
     background-image: url("images/se-galaxy-s22-s901-sm-s901bzggeub-530830399.webp");
