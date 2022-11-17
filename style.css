@@ -59,6 +59,18 @@ body{
     padding: 0;
 
 }
+
+footer{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+footer li{
+    padding-bottom: 25px;
+}
 h1{
     margin: 0;
     padding: 0;
