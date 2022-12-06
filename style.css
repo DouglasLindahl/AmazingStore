@@ -17,34 +17,7 @@
     to{opacity: 1;}
   }
 /* DESKTOP-----------------------------> */
-  @media screen and (min-width: 600px)
-  {
-    .storeName{
-        position: absolute;
-        top: 400px;
-        width: 80%;
-        left: 50%;
-        transform:  translateX(-50%);
-        text-align: center;
-        font-size: 120px;
-        animation: nameTextFadeIn 2s cubic-bezier(0.5, 0, 1, 0.5 );
 
-    }
-
-    /* .phoneScroll {
-        justify-content: space-around;
-        gap: 0;
-        min-width: 70rem;
-        
-    } */
-
-  }
-
-    .phoneScroll {
-        justify-content: space-around;
-        gap: 0;
-                            /* min-width: 70rem; */
-    }
 
 
 
@@ -139,7 +112,6 @@ header{
     gap: 20px;
     overflow-x: auto;
     /* overflow-y: hidden; */
-
 }
 
 
@@ -188,4 +160,24 @@ header{
 
 article {
     margin-bottom: 5rem;
+}
+
+
+@media screen and (min-width: 1024px)
+{
+  .storeName{
+      position: absolute;
+      top: 400px;
+      width: 80%;
+      left: 50%;
+      transform:  translateX(-50%);
+      text-align: center;
+      font-size: 120px;
+      animation: nameTextFadeIn 2s cubic-bezier(0.5, 0, 1, 0.5 );
+
+  }
+  .phoneScroll{
+      overflow-x: hidden;
+  }
+
 }
