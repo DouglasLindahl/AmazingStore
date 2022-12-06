@@ -120,7 +120,6 @@ header{
     height: 80%;
     /* line-height: 20rem; */
      overflow-y: hidden;
-     background-color: red;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -133,6 +132,12 @@ header{
     text-align: center;
     gap: 2rem;
     color: white;
+   
+}
+
+.phoneText p {
+    font-size: 16px;
+    line-height: 2.5;
 }
 
 .phoneText ul{
