@@ -4,10 +4,10 @@ let main = document.querySelector("main");
 
 const phoneScrolls = [
     samsung = [
-        galaxys22 = {title: "Galaxy S 22", price: "8299", imageUrl: "images/iphone14.png", info: ["FHD+ sAMOLED 120 Hz Display", "64MP OIS Camera", "2 Days Battery"]},
-        galaxys21 = {title: "Galaxy S 21", price: "8299", imageUrl: "images/iphone14.png", info: ["FHD+ sAMOLED 120 Hz Display", "64MP OIS Camera", "2 Days Battery"]},
-        galaxyzfold2 = {title: "Galaxy S 25", price: "8299", imageUrl: "images/iphone14.png", info: ["FHD+ sAMOLED 120 Hz Display", "64MP OIS Camera", "2 Days Battery"]},
-        galaxys22ultra = {title: "Galaxy S 322", price: "8299", imageUrl: "images/OnePlus10Pro.png", info: ["FHD+ sAMOLED 120 Hz Display", "64MP OIS Camera", "2 Days Battery"]}
+        galaxys22 = {title: "Galaxy S 22", price: "8299", imageUrl: "images/se-galaxy-s22-s901-sm-s901bzggeub-530830399.webp", info: ["FHD+ sAMOLED 120 Hz Display", "64MP OIS Camera", "2 Days Battery"]},
+        galaxys21 = {title: "Galaxy S 21", price: "8299", imageUrl: "images/galaxy s21.png", info: ["FHD+ sAMOLED 120 Hz Display", "64MP OIS Camera", "2 Days Battery"]},
+        galaxyzfold2 = {title: "Galaxy S 25", price: "8299", imageUrl: "images/au-galaxy-z-fold2-f916-sm-f916bznaxsa-frontmysticbronze-274062018.webp", info: ["FHD+ sAMOLED 120 Hz Display", "64MP OIS Camera", "2 Days Battery"]},
+        galaxys22ultra = {title: "Galaxy S 322", price: "8299", imageUrl: "images/2000928_20.avif", info: ["FHD+ sAMOLED 120 Hz Display", "64MP OIS Camera", "2 Days Battery"]}
     ],
     onePlus = [
         galaxys22 = {title: "Galaxy S 22", price: "8299", imageUrl: "images/iphone14.png", info: ["FHD+ sAMOLED 120 Hz Display", "64MP OIS Camera", "2 Days Battery"]},
