@@ -116,18 +116,23 @@ header{
 
 
 .phoneScroll .phone {
-    min-width: 40rem;
-    height: 100%;
+    min-width: 30rem;
+    height: 80%;
     /* line-height: 20rem; */
      overflow-y: hidden;
+     background-color: red;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
 }
-
 .phoneText {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
     gap: 2rem;
+    color: white;
 }
 
 .phoneText ul{
@@ -149,8 +154,8 @@ header{
 }
 
 .phoneImage {
-    width: 100%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
     background-image: url("images/se-galaxy-s22-s901-sm-s901bzggeub-530830399.webp");
     background-size: cover;
     background-repeat: no-repeat;
@@ -186,8 +191,14 @@ article {
     /* line-height: 20rem; */
      overflow-y: hidden;
 }
-    .phoneImage{
-        background-size: contain;
-    }
+
+.phoneImage {
+    width: 100%;
+    height: 40%;
+    background-image: url("images/se-galaxy-s22-s901-sm-s901bzggeub-530830399.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 }
