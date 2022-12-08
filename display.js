@@ -49,7 +49,7 @@ createPhoneScroll = () => {
          titleText.style.color = "#fff"
 
 
-         console.log(titleText.textContent);
+
 
          titleDiv.append(titleText);
 
@@ -84,8 +84,8 @@ createPhoneScroll = () => {
             phoneText.append(phoneInfoList);
 
             main.append(scrollContainer)
-            scrollContainer.append(phoneScroll)
             scrollContainer.append(titleDiv)
+            scrollContainer.append(phoneScroll)
             phoneScroll.append(phone);
             phone.append(phoneImage);
             
