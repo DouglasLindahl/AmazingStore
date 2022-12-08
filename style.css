@@ -191,6 +191,7 @@ article {
   }
   .phoneScroll{
       overflow-x: hidden;
+      justify-content: space-around;
   }
   .phoneScroll .phone {
     min-width: 0px;
