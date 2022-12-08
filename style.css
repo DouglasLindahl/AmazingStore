@@ -130,6 +130,10 @@ header{
     /* overflow-y: hidden; */
 }
 
+.titleContainer{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
 
 .phoneScroll .phone {
     min-width: 20rem;
