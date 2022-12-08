@@ -37,15 +37,23 @@ const phoneScrolls = [
 createPhoneScroll = () => {
     for(let i = 0; i < phoneScrolls.length; i++)
     {
-        // console.log(phoneScrolls[i][1]);
-        // let titleDiv = document.createElement("div")
-        // let titleText = document.createElement("h2")
-
-        // titleText.textContent = phoneScrolls[i][1]
-        // titleText.style.color = "#fff"
+        //scroll-container
+        const scrollContainer = document.createElement('div');
 
 
-        // console.log(titleText.textContent);
+
+       //Phone Title
+         let titleDiv = document.createElement("div")
+         let titleText = document.createElement("h2")
+         titleDiv.classList.add('titleContainer')
+
+         titleText.textContent = phoneScrolls[i][1]
+         titleText.style.color = "#fff"
+
+
+         console.log(titleText.textContent);
+
+         titleDiv.append(titleText.textContent);
 
 
         let phoneScroll = document.createElement("article");
@@ -72,11 +80,14 @@ createPhoneScroll = () => {
             phoneName.textContent = phoneScrolls[i][0][x].title;
             phonePrice.textContent = phoneScrolls[i][0][x].price + "kr";
 
+            
             phoneText.append(phoneName);
             phoneText.append(phonePrice);
             phoneText.append(phoneInfoList);
 
-            
+            main.append(scrollContainer)
+            scrollContainer.append(phoneScroll)
+            scrollContainer.append(titleDiv)
             phoneScroll.append(phone);
             phone.append(phoneImage);
             
