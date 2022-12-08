@@ -7,8 +7,8 @@ const phoneScrolls = [
     samsung = [
         galaxyS22 = {title: "Galaxy S 22", price: "8299", imageUrl: "images/se-galaxy-s22-s901-sm-s901bzggeub-530830399.webp", info: ["FHD+ sAMOLED 120 Hz Display", "64MP OIS Camera", "2 Days Battery"]},
         galaxyS21 = {title: "Galaxy S 21", price: "5899", imageUrl: "images/galaxy-s21.png", info: ["6,2 amoled FHD display", "108+10+10+12Mpx-camera, laserfokus", "4000 mAh battery"]},
-        galaxyzfold2 = {title: "Galaxy S 25", price: "14499", imageUrl: "images/au-galaxy-z-fold2-f916-sm-f916bznaxsa-frontmysticbronze-274062018.png", info: ["foldable screens", "Android 10 med Samsung One UI 2.5", "Snapdragon 865 Plus"]},
-        galaxyS22Ultra = {title: "Galaxy S 322", price: "10899", imageUrl: "images/2000928_20.avif", info: ["6.8 Infinity-O 120Hz-screen", "108+10+10+12 Mpx quadcamera", "5000mAh battery"]}
+        galaxyzfold2 = {title: "Galaxy Z fold 2", price: "14499", imageUrl: "images/au-galaxy-z-fold2-f916-sm-f916bznaxsa-frontmysticbronze-274062018.png", info: ["foldable screens", "Android 10 med Samsung One UI 2.5", "Snapdragon 865 Plus"]},
+        galaxyS22Ultra = {title: "Galaxy S 22", price: "10899", imageUrl: "images/2000928_20.avif", info: ["6.8 Infinity-O 120Hz-screen", "108+10+10+12 Mpx quadcamera", "5000mAh battery"]}
     ],
     title = "Samsung"
 ],
