@@ -1,6 +1,6 @@
 
 const menu = document.querySelector(".menu");
-const menuButton = document.querySelector(".hamburger");
+const menuButton = document.querySelector(".burgerContainer");
 
 const body = document.querySelector("body");
 

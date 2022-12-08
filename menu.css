@@ -49,11 +49,37 @@
     right: .7rem;
     top: .7rem;
     z-index: 2;
+    display: none;
 }
 
-.hamburger:hover {
-    cursor: pointer;
+.burgerContainer {
+    position: absolute;
+    right: .7rem;
+    top: .7rem;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
 }
+
+.burger {
+    width: 100%;
+    height: 7px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.burgerContainer:hover {
+    cursor: pointer;
+  
+}
+
+.burgerContainer:hover span{
+    background-color: var(--main-hover-color);
+}
+
 .hamburgerImage{
     width: 100%;
     height: 100%;
