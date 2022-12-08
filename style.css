@@ -33,7 +33,8 @@ body{
 
 }
 
-footer{
+.mainFooter{
+    width: 100vw;
     height: 60vh;
     display: flex;
     flex-direction: column;
@@ -41,9 +42,23 @@ footer{
     align-items: flex-start;
 }
 
-footer li{
+.copyright{
+    height: 50px;
+    width: 100%;
+}
+.copyright p{
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+.mainFooter section{
+    padding-left: 30px;
+}
+
+footer p{
     padding-bottom: 25px;
 }
+
 h1{
     margin: 0;
     padding: 0;
@@ -212,6 +227,12 @@ article {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.mainFooter{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 }

@@ -1,26 +1,21 @@
 
 
-@keyframes menuOpen {
-    from {left: 150%;}
-    to {left: 50%; transform: translateX(-50%);}
-  }
 
 .menu{
     overflow: hidden;
-    opacity: 0;
     position: absolute;
+    left: 150%;
     background-color: rgb(69, 69, 69);
     height: 100vh;
     width: 100vw;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 35px;
     z-index: 1;
+    transition: 0.5s ease;
 } 
 
 .menu h2{
@@ -31,8 +26,9 @@
 }
 
 .menuOpen{
-    opacity: 1;
-    animation: menuOpen 0.5s ease;
+    left: 50%; 
+    transform: translateX(-50%);
+    transition: 0.5s ease;
 }
 
 
