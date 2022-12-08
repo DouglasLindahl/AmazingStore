@@ -130,11 +130,6 @@ header{
     /* overflow-y: hidden; */
 }
 
-.titleContainer {
-    background-color: red;
-    align-items: baseline;
-}
-
 
 .phoneScroll .phone {
     min-width: 20rem;

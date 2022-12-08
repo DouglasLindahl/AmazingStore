@@ -40,8 +40,6 @@ createPhoneScroll = () => {
         //scroll-container
         const scrollContainer = document.createElement('div');
 
-
-
        //Phone Title
          let titleDiv = document.createElement("div")
          let titleText = document.createElement("h2")
@@ -53,7 +51,7 @@ createPhoneScroll = () => {
 
          console.log(titleText.textContent);
 
-         titleDiv.append(titleText.textContent);
+         titleDiv.append(titleText);
 
 
         let phoneScroll = document.createElement("article");
