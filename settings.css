@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+:root {
+    --main-background-color: #01081A;
+    --main-text-color: #F9F9F9;
+    --main-hover-color: #CE67FF;
+  }
+
+ 

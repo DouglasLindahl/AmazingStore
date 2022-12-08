@@ -1,14 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-:root {
-    --main-background-color: #01081A;
-    --main-text-color: #F9F9F9;
-    --main-hover-color: #CE67FF;
-  }
   @keyframes heroMove {
     from {transform: translateY(500px);}
     to {transform: translateY(0px);}
@@ -135,8 +125,11 @@ header{
 }
 
 .titleContainer{
-    padding-left: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+}
+.titleContainer h2{
+    text-align: center;
+    font-size: 56px;
 }
 
 .phoneScroll .phone {
