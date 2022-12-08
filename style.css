@@ -7,6 +7,7 @@
 :root {
     --main-background-color: #01081A;
     --main-text-color: #F9F9F9;
+    --main-hover-color: #CE67FF;
   }
   @keyframes heroMove {
     from {transform: translateY(500px);}
@@ -59,6 +60,11 @@ footer p{
     padding-bottom: 25px;
 }
 
+footer .mainFooter p:hover{
+    cursor: pointer;
+    color: var(--main-hover-color);
+}
+
 h1{
     margin: 0;
     padding: 0;
@@ -108,16 +114,14 @@ header{
 }
 
 .storeInfo{
-    width: 100%;
     height: 75vh;
     background-color: var(--main-background-color);
     text-align: center;
+    padding-top: 200px;
 }
 
-.storeInfo p {
-    max-width: 90%;
-    
-}
+
+
 
 .phoneScroll{
     height: 100vh; 
@@ -144,34 +148,29 @@ header{
      flex-direction: column;
      align-items: center;
 }
-.phoneText {
+.phoneText{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    text-align: center;
     color: white;
    width: 80%;
+}
+.phoneText h2{
+    text-align: center;
+}
+.phoneText h3{
+    text-align: center;
+}
+.phoneInfoList{
+    padding-left: 30px;
 }
 
 .phoneText p {
     font-size: 16px;
-    line-height: 2.5;
+    line-height: 1.5;
 }
 
-.phoneText ul{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.phoneText li {
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-    color: black;
-}
 
 .phoneText h3 {
     font-size: 1.5rem;
@@ -187,7 +186,17 @@ header{
     background-repeat: no-repeat;
     background-position: center;
 }
+.phone:hover{
+    color: var(--main-hover-color); 
+}
 
+.phoneImage:hover{
+    cursor: pointer;
+}
+.phone:hover h2{
+    color: var(--main-hover-color);
+    cursor: pointer;
+}
 
 
 article {
@@ -232,6 +241,11 @@ article {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
+}
+
+.storeInfo p{
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 }

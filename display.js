@@ -67,6 +67,7 @@ createPhoneScroll = () => {
             let phoneName = document.createElement("h2");
             let phonePrice = document.createElement("h3");
             let phoneInfoList = document.createElement("div");
+            phoneInfoList.classList.add("phoneInfoList");
             for(let z = 0; z < phoneScrolls[i][0][x].info.length; z ++)
             {
                 let p = document.createElement("p");
