@@ -75,6 +75,8 @@
     background-color: #fff;
 }
 
+
+
 .burgerContainer:hover {
     cursor: pointer;
   
@@ -83,6 +85,31 @@
 .burgerContainer:hover span{
     background-color: var(--main-hover-color);
 }
+
+.burgerContainer.active .top{
+    background-color: var(--main-hover-color);
+    transform: rotateZ(45deg) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    transition: transform 0.3s ease;
+}
+
+.burgerContainer.active .middle{
+    background-color: var(--main-hover-color);
+    display: none;
+}
+
+.burgerContainer.active .bottom{
+    background-color: var(--main-hover-color);
+    transform: rotateZ(-45deg) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    transition: transform 0.3s ease;
+}
+
+
+
+
 
 .hamburgerImage{
     width: 100%;
